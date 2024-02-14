@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+}
+.card{
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    min-height: 80vh;
+    width: 50%;
+    /*overflow: scroll;*/
+    border-radius: 40px;
+}
+.card-title{
+    padding: 10px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: peru;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.li-style{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    transition: all 0.3;
+}
+.li-style:hover{
+    background-color: #111;
+}
+
+.bg-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color:white ;
+    color: black;
+    border-radius: 30px;
+
+}
+.bg-danger{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color:white ;
+    color: black;
+    border-radius: 30px;
+
+}
